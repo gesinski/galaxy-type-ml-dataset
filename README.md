@@ -22,22 +22,7 @@ This dataset can be used for training deep learning models (e.g., CNNs) and expe
 
 The dataset is organized into separate training and test sets, with images grouped into 5 galaxy types.
 
-galaxy-type-ml-dataset/
-├── Data Preparation Scripts/ # Scripts for preprocessing, cleaning, augmentation, etc.
-└── Dataset/
-    ├── Train Data/
-    │   ├── Barred Spiral/
-    │   ├── Elliptical/
-    │   ├── Irregular/
-    │   ├── Lenticular/
-    │   └── Spiral/
-    └── Test Data/
-        ├── Barred Spiral/
-        ├── Elliptical/
-        ├── Irregular/
-        ├── Lenticular/
-        └── Spiral/
-
+<pre markdown="1"> ```plaintext galaxy-type-ml-dataset/ ├── Data Preparation Scripts/ # Scripts for preprocessing, cleaning, augmentation, etc. └── Dataset/ ├── Train Data/ │ ├── Barred Spiral/ │ ├── Elliptical/ │ ├── Irregular/ │ ├── Lenticular/ │ └── Spiral/ └── Test Data/ ├── Barred Spiral/ ├── Elliptical/ ├── Irregular/ ├── Lenticular/ └── Spiral/ ``` </pre>
 ---
 
 ## License
