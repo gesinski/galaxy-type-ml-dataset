@@ -9,9 +9,9 @@ import torch
 train_loader, test_loader, classes = load_data()
 
 # Choose model
-model = CNNModel()  # or MLPModel(), get_resnet18_model()
+model = get_resnet18_model()  # or CNNModel(), MLPModel()
 
-model.load_state_dict(torch.load('outputs/saved_models/CNNModel_2025-06-10_23-35-28.pth'))
-#train_model(model, train_loader, test_loader, epochs=10)
+#model.load_state_dict(torch.load('outputs/saved_models/CNNModel_2025-06-10_23-35-28.pth'))
+train_model(model, train_loader, test_loader, epochs=10)
 evaluate_model(model, test_loader)
 
