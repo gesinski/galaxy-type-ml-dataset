@@ -14,9 +14,11 @@ The goal is to enable classification of galaxies based on image data into the fo
 - Lenticular
 - Spiral
 
-This dataset can be used for training deep learning models (e.g., CNNs) and experimenting with astrophysical image classification tasks.
-
 ---
+
+## Run
+
+python -m scripts.main
 
 ## License
 TODO
